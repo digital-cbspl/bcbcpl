@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 async function getVisits() {
   try {
-    const res = await fetch(`http://localhost:3000/api/visits`, {
+    const res = await fetch(`https://bcbcpl.vercel.app/api/visits`, {
       cache: "no-store",
     });
 
