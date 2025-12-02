@@ -30,7 +30,7 @@ export default function ServicesSection() {
           </div>
 
           <h3 className="text-lg font-bold text-[#101828] mb-4">
-            Construction
+            Turnkey Basis Projects
           </h3>
           <p className="text-gray-600 leading-relaxed">
             We produce positive results from growing industrial estates and maintain the construction economy.

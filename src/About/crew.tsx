@@ -4,7 +4,7 @@ export default function CrewSection() {
     const groups = [
         {
             title: "Project Team",
-            members: ["GM-Operation", "Project Manager", "Sr. Planning Engineer", "Sr. Electrical Engineer", "Sr. Safety Officer"],
+            members: ["GM-Operation", "Project Manager", "Planning Engineer", "Electrical Engineer","MEP Engineer", "Safety Officer"],
         },
         {
             title: "Finance & Accounts Team",
@@ -12,11 +12,11 @@ export default function CrewSection() {
         },
         {
             title: "Tendering Team",
-            members: [ "Planning Engineer", "Planning & Billing Engineer"],
+            members: [ "GM BD & Contract", "Project Manager(Tender)","Estimator"],
         },
         {
             title: "Procurement Team",
-            members: ["GM-Procurement", "Sr. Procurement Officer", "Procurement Officer", "Store Manager"],
+            members: ["GM-Procurement", "Sr. Procurement Officer","Procurement Manager", "Procurement Officer", "Store Manager"],
         },
         {
             title: "HR & Admin Team",

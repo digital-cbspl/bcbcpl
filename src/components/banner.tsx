@@ -14,7 +14,7 @@ export default function HeroBanner() {
     },
     {
       image: Banner3.src,
-      title: "District Headquarter Hospital, Bhadrak",
+      title: "Multi Stored Water Complex (OPDCL), Bhubaneswar",
       subtitle: "From planning to execution, we handle everything",
       tagline: "YOUR TRUST, OUR COMMITMENT",
     },

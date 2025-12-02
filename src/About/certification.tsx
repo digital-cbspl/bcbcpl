@@ -14,17 +14,17 @@ interface Certificate {
 const certificates: Certificate[] = [
   {
     title: "ISO 9001-2015",
-    file: "/pdfs/ISO 9001-2015.pdf",
+    file: "/pdfs/ISO 9001-2015.pdf#toolbar=0",
     image: Cer1.src,
   },
   {
     title: "Udyam Registration Certificate",
-    file: "/pdfs/Udyam Registration Certificate.pdf",
+    file: "/pdfs/Udyam Registration Certificate.pdf#toolbar=0",
     image: Cer2.src,
   },
   {
     title: "ISO Certificate 14001 & 45001",
-    file: "/pdfs/ISO Certificate 14001 & 45001.pdf",
+    file: "/pdfs/ISO Certificate 14001 & 45001.pdf#toolbar=0",
     image: Cer3.src,
   },
 ];
@@ -40,24 +40,24 @@ export default function CertificationPage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {certificates.map((cert, index) => (
             <a
-  key={index}
-  href={cert.file}
-  target="_blank"
-  rel="noopener noreferrer"
-  data-aos="zoom-in"
-  data-aos-delay={index * 120}
-  className="cursor-pointer p-4 border rounded-xl shadow-sm hover:shadow-lg transition flex flex-col items-center bg-gray-50 group"
->
-  <img
-    src={cert.image}
-    alt={cert.title}
-    className="w-full h-48 object-contain rounded-md"
-    loading="lazy"
-  />
-  <h3 className="mt-4 text-center font-semibold text-lg text-[#101828] group-hover:text-red-600 transition-colors">
-    {cert.title}
-  </h3>
-</a>
+              key={index}
+              href={cert.file}
+              target="_blank"
+              rel="noopener noreferrer"
+              data-aos="zoom-in"
+              data-aos-delay={index * 120}
+              className="cursor-pointer p-4 border rounded-xl shadow-sm hover:shadow-lg transition flex flex-col items-center bg-gray-50 group"
+            >
+              <img
+                src={cert.image}
+                alt={cert.title}
+                className="w-full h-48 object-contain rounded-md"
+                loading="lazy"
+              />
+              <h3 className="mt-4 text-center font-semibold text-lg text-[#101828] group-hover:text-red-600 transition-colors">
+                {cert.title}
+              </h3>
+            </a>
           ))}
         </div>
       </div>

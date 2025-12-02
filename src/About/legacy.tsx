@@ -73,7 +73,7 @@ export default function Legacy() {
                         data-aos-delay="500"
                         data-aos-once="true"
                     >
-                        25 Years Of <br /> Experiences
+                        18 Years Of <br /> Experiences
                     </div>
                 </div>
 
