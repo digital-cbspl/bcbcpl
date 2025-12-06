@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 async function getVisits() {
   try {
-    const res = await fetch(`/api/visits`, {
+    const res = await fetch(`http://localhost:3000/api/visits`, {
       cache: "no-store",
     });
 
