@@ -14,7 +14,7 @@ export default function Home() {
   const [visits, setVisits] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch("/api/visit")
+    fetch("/api/visits")
       .then((res) => res.json())
       .then((data) => {
         setVisits(data.visits);
