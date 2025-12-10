@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Cer1, Cer2, Cer3 } from "../assests/image/image";
@@ -30,6 +30,8 @@ const certificates: Certificate[] = [
 ];
 
 export default function CertificationPage() {
+  const [openPdf, setOpenPdf] = useState<string | null>(null);
+
   useEffect(() => {
     AOS.init({ duration: 900, once: true });
   }, []);
@@ -39,11 +41,9 @@ export default function CertificationPage() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
           {certificates.map((cert, index) => (
-            <a
+            <div
               key={index}
-              href={cert.file}
-              target="_blank"
-              rel="noopener noreferrer"
+              onClick={() => setOpenPdf(cert.file)}
               data-aos="zoom-in"
               data-aos-delay={index * 120}
               className="cursor-pointer p-4 border rounded-xl shadow-sm hover:shadow-lg transition flex flex-col items-center bg-gray-50 group"
@@ -57,10 +57,29 @@ export default function CertificationPage() {
               <h3 className="mt-4 text-center font-semibold text-lg text-[#101828] group-hover:text-red-600 transition-colors">
                 {cert.title}
               </h3>
-            </a>
+            </div>
           ))}
         </div>
       </div>
+
+      {openPdf && (
+        <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
+          <div className="bg-white w-[50%] h-[100%] rounded-lg overflow-hidden shadow-xl relative">
+            <button
+              onClick={() => setOpenPdf(null)}
+              className="absolute top-3 right-3 bg-red-600 text-white px-3 py-1 rounded"
+            >
+              Close
+            </button>
+
+            <iframe
+              src={openPdf}
+              className="w-full h-full"
+              style={{ border: "none" }}
+            ></iframe>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

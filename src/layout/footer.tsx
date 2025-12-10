@@ -96,31 +96,31 @@ export default function Footer({ visits }: { visits: number | null }) {
                     <ul className="space-y-4 text-sm">
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Puri Railway Station
+                                <ArrowRight size={16} /> Re-Development of Puri Railway Station
                             </Link>
                         </li>
 
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Redevelopment of Kalinga Studio
+                                <ArrowRight size={16} /> Redevelopment of Kalinga Studio, Bhubaneswar
                             </Link>
                         </li>
 
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Biju Patanaik Adarsha Vidyalaya
+                                <ArrowRight size={16} /> Biju Patanaik Adarsha Vidyalaya, Berhampur
                             </Link>
                         </li>
 
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Basic Science Building of IIT-BBSR
+                                <ArrowRight size={16} /> State of Art Hygienic Fish Market, Basta
                             </Link>
                         </li>
 
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Railway Bridge
+                                <ArrowRight size={16} /> GM Office Complex (B2+B1+G+9), Visakhapatnam
                             </Link>
                         </li>
                     </ul>

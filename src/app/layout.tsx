@@ -4,6 +4,8 @@ import "./globals.css";
 import Header from "../layout/header";
 import Footer from "../layout/footer";
 import PageTransition from "./page-transition";
+import DisablePrint from "../components/DisablePrint";
+import DisableRightClick from "../components/DisableRightClick";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -39,6 +41,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
+        <DisablePrint />
+        <DisableRightClick />
         <PageTransition>{children}</PageTransition>
         <Footer visits={visits} />
       </body>

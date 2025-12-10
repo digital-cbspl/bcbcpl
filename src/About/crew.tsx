@@ -20,7 +20,7 @@ export default function CrewSection() {
         },
         {
             title: "HR & Admin Team",
-            members: ["Sr. Human Resource", "HR Executive", "Site HR"],
+            members: ["Sr. Human Resource", "HR & Admin Executive", "Site HR"],
         },
     ];
 
