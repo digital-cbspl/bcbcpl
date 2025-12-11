@@ -10,8 +10,6 @@ import {
     Ong4,
     Ong5,
     Ong6,
-    Ong7,
-    Ong8,
 } from "../assests/image/image";
 
 interface ProjectCardProps {
@@ -53,14 +51,12 @@ const ProjectCard: FC<ProjectCardProps> = ({ image, title, link, delay }) => {
 
 const OngoingProjects: FC = () => {
     const projects = [
-        { image: Ong1.src, title: "Puri Railway Station", link: "/" },
-        { image: Ong2.src, title: "Salegaon-Budhapank in East Coast Railway", link: "/" },
-        { image: Ong3.src, title: "Redevelopment of Kalinga Studio", link: "/" },
-        { image: Ong4.src, title: "Biju Patanaik Adarsha Vidyalaya", link: "/" },
-        { image: Ong5.src, title: "Housing Projects for Sevayats at Harachandi Sahi, Puri", link: "/" },
-        { image: Ong6.src, title: "Beach Road Extension, Acharya Harihar Square", link: "/" },
-        { image: Ong7.src, title: "Workstation", link: "/" },
-        { image: Ong8.src, title: "Studio", link: "/" },
+        { image: Ong1.src, title: "Re-Development of Puri Railway Station (EPC)", link: "/" },
+        { image: Ong2.src, title: "Multi Storied Quarter Complex (OPTCL), Bhubaneswar", link: "/" },
+        { image: Ong3.src, title: "State of Art Hygienic Fish Market, Basta", link: "/" },
+        { image: Ong4.src, title: "CCB, Bhadrak", link: "/" },
+        { image: Ong5.src, title: "G.M Office, Vizag", link: "/" },
+        { image: Ong6.src, title: "Puri Beach Road Development & Multi Level Car Park (TURNKEY)", link: "/" },
     ];
 
     return (

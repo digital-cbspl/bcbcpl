@@ -14,8 +14,6 @@ export default function EquipmentSection() {
 
     return (
         <section className="w-full py-20 bg-white">
-            
-            {/* Limit width for left-right spacing */}
             <div className="max-w-7xl mx-auto px-6 lg:px-12">
 
                 <h2
@@ -26,7 +24,7 @@ export default function EquipmentSection() {
                     Equipment & Machinery
                 </h2>
 
-                {/* TOP 3 IMAGES */}
+                {/* TOP 3 IMAGES (Uniform Height) */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-20">
                     <div data-aos="zoom-in">
                         <Image
@@ -34,7 +32,8 @@ export default function EquipmentSection() {
                             width={800}
                             height={500}
                             alt="equipment"
-                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500"
+                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 
+                                       w-full h-64 object-cover"
                         />
                     </div>
 
@@ -44,7 +43,8 @@ export default function EquipmentSection() {
                             width={800}
                             height={500}
                             alt="equipment"
-                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500"
+                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 
+                                       w-full h-64 object-cover"
                         />
                     </div>
 
@@ -54,7 +54,8 @@ export default function EquipmentSection() {
                             width={800}
                             height={500}
                             alt="equipment"
-                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500"
+                            className="rounded-xl shadow-lg hover:scale-105 transition-transform duration-500 
+                                       w-full h-64 object-cover"
                         />
                     </div>
                 </div>
@@ -73,11 +74,7 @@ export default function EquipmentSection() {
                             "Tractors with Trolleys",
                             "Water Tankers",
                         ].map((item, i) => (
-                            <li
-                                key={i}
-                                className="flex items-start gap-2"
-                                style={{ color: "#101828" }}
-                            >
+                            <li key={i} className="flex items-start gap-2" style={{ color: "#101828" }}>
                                 <span className="mt-1 block" style={{ color: "#d80c18" }}>●</span>
                                 {item}
                             </li>
@@ -95,11 +92,7 @@ export default function EquipmentSection() {
                             "DG sets 30KVA-125kva",
                             "Needle Vibrators",
                         ].map((item, i) => (
-                            <li
-                                key={i}
-                                className="flex items-start gap-2"
-                                style={{ color: "#101828" }}
-                            >
+                            <li key={i} className="flex items-start gap-2" style={{ color: "#101828" }}>
                                 <span className="mt-1 block" style={{ color: "#d80c18" }}>●</span>
                                 {item}
                             </li>
@@ -116,17 +109,12 @@ export default function EquipmentSection() {
                             "Level Machines with Staff",
                             "Lab Testing Equipments",
                         ].map((item, i) => (
-                            <li
-                                key={i}
-                                className="flex items-start gap-2"
-                                style={{ color: "#101828" }}
-                            >
+                            <li key={i} className="flex items-start gap-2" style={{ color: "#101828" }}>
                                 <span className="mt-1 block" style={{ color: "#d80c18" }}>●</span>
                                 {item}
                             </li>
                         ))}
                     </ul>
-
                 </div>
             </div>
         </section>

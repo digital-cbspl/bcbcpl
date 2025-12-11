@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { Member1, Member2, Member3 } from "../assests/image/image";
+import { Member1, Member2, Member3, Member4 } from "../assests/image/image";
 
 interface TeamMember {
   name: string;
@@ -53,6 +53,16 @@ export default function TeamSection() {
       name: "Mr. Pramod Kumar Bhuyan",
       role: "Director",
       image: Member3.src,
+      socials: {
+        youtube: "https://youtube.com/",
+        linkedin: "https://linkedin.com/in/",
+        facebook: "https://facebook.com/",
+      },
+    },
+    {
+      name: "Mr. Bhuyan",
+      role: "Project Director",
+      image: Member4.src,
       socials: {
         youtube: "https://youtube.com/",
         linkedin: "https://linkedin.com/in/",

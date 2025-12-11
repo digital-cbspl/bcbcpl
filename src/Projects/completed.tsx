@@ -15,6 +15,17 @@ import {
   Comp9,
   Comp10,
   Comp11,
+  Comp12,
+  Comp13,
+  Comp14,
+  Comp15,
+  Comp16,
+  Comp17,
+  Comp18,
+  Comp19,
+  Comp20,
+  Comp21,
+  Comp22,
 } from "../assests/image/image";
 
 interface ProjectCardProps {
@@ -56,6 +67,17 @@ const ProjectCard: FC<ProjectCardProps> = ({ image, title, link, delay }) => {
 
 const CompletedProjects: FC = () => {
   const projects = [
+     { image: Comp12.src, title: "Development of Aluminium Park, Angul", link: "/" },
+      { image: Comp13.src, title: "Heavy Motor Vehicle Training Institute (HMVTI), Sundargarh", link: "/" },
+       { image: Comp14.src, title: "Electronics Manufacturing Cluster (EMC) Park, Infovalley", link: "/" },
+        { image: Comp15.src, title: "300 Bedded District Headquarter Hospital, Bhadrak", link: "/" },
+         { image: Comp16.src, title: "Redevelopment of Kalinga Studio", link: "/" },
+          { image: Comp17.src, title: "Odisha Adarsha Vidyalaya (G+2), Andharua, Bhubaneswar", link: "/" },
+           { image: Comp19.src, title: "O-Hub IT incubation Centre (2B+G+12), Bhubaneswar", link: "/" },
+            { image: Comp18.src, title: "World Skill Centre (B+G+18), Bhubaneswar", link: "/" },
+             { image: Comp20.src, title: "Academic Building (G+3) at Ravenshaw Junior College, Cuttack", link: "/" },
+              { image: Comp21.src, title: "Unnati Bhawan (G+3), Satya Nagar, Bhubaneswar", link: "/" },
+               { image: Comp22.src, title: "400 Seated Boys Hostel of IGIT Sarang", link: "/" },
     { image: Comp1.src, title: "Basic Science Building of IIT-BBSR", link: "/" },
     { image: Comp2.src, title: "Railway Bridge", link: "/" },
     { image: Comp3.src, title: "Academic Block of IGIT Sarang", link: "/" },
