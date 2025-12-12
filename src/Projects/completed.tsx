@@ -67,11 +67,11 @@ const ProjectCard: FC<ProjectCardProps> = ({ image, title, link, delay }) => {
 
 const CompletedProjects: FC = () => {
   const projects = [
-     { image: Comp12.src, title: "Development of Aluminium Park, Angul", link: "/" },
-      { image: Comp13.src, title: "Heavy Motor Vehicle Training Institute (HMVTI), Sundargarh", link: "/" },
-       { image: Comp14.src, title: "Electronics Manufacturing Cluster (EMC) Park, Infovalley", link: "/" },
-        { image: Comp15.src, title: "300 Bedded District Headquarter Hospital, Bhadrak", link: "/" },
-         { image: Comp16.src, title: "Redevelopment of Kalinga Studio", link: "/" },
+     { image: Comp12.src, title: "Development of Aluminium Park, Angul", link: "/Project/Completed/ProjectDetails/AluminiumPark" },
+      { image: Comp13.src, title: "Heavy Motor Vehicle Training Institute (HMVTI), Sundargarh", link: "/Project/Completed/ProjectDetails/Hmvti" },
+       { image: Comp14.src, title: "Electronics Manufacturing Cluster (EMC) Park, Infovalley", link: "/Project/Completed/ProjectDetails/Emcpark" },
+        { image: Comp15.src, title: "300 Bedded District Headquarter Hospital, Bhadrak", link: "/Project/Completed/ProjectDetails/Dhhbhadrak" },
+         { image: Comp16.src, title: "Redevelopment of Kalinga Studio", link: "/Project/Completed/ProjectDetails/Kalingastudio" },
           { image: Comp17.src, title: "Odisha Adarsha Vidyalaya (G+2), Andharua, Bhubaneswar", link: "/" },
            { image: Comp19.src, title: "O-Hub IT incubation Centre (2B+G+12), Bhubaneswar", link: "/" },
             { image: Comp18.src, title: "World Skill Centre (B+G+18), Bhubaneswar", link: "/" },
