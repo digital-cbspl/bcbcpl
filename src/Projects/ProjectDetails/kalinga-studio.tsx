@@ -98,6 +98,7 @@ export default function KalingaStudio() {
                 <div className="bg-[#101828] text-white p-6 rounded-lg lg:col-span-1">
                     <h2 className="text-xl font-bold mb-4">Project Information</h2>
 
+                    <InfoRow label="Status:" value="Completed" />
                     <InfoRow label="Client:" value="" />
                     <InfoRow label="Location:" value="Bhubaneswar" />
                     <InfoRow label="Area(sf):" value="550,000 sf" />
