@@ -14,7 +14,7 @@ export default function HeroBanner() {
     },
     {
       image: Banner8.src,
-      title: "IT Incubation Centre, Bhubanesware",
+      title: "IT Incubation Centre, Bhubaneswar",
       subtitle: "End-to-end solutions, managed with precision and care",
       tagline: "Trust Built on Performance",
     },
