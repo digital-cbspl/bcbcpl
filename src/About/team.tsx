@@ -60,7 +60,7 @@ export default function TeamSection() {
       },
     },
     {
-      name: "Mr. Bhuyan",
+      name: "Mr. Satyapriya Jena",
       role: "Project Director",
       image: Member4.src,
       socials: {
