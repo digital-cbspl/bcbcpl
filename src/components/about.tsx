@@ -95,27 +95,18 @@ export default function RoofingHero() {
           </h2>
 
           <p className="text-gray-500 mb-8 text-justify">
-            Welcome to the B.C. Bhuyan Constructions Pvt. Ltd. We are specialists
-            in all aspects of general building and property maintenance,
-            Extensions, Loft Conversions and Carpentry related works, for both
-            private and commercial clients in India. B.C. Bhuyan Constructions
-            Ltd are specialists in all aspects of general building and property
-            maintenance related works, for both private and commercial clients
-            in Odisha. As a professional building company in Odisha, we take
-            huge pride in our reputable building services and make sure every
-            project is nothing less than what our clients will expect. Bc Bhuyan
-            Constructions can ensure and provide expert knowledge and skills to
-            every project.
+           B. C. Bhuyan Constructions Pvt Ltd (BCBCPL) is an established civil engineering and construction firm headquartered in Bhubaneswar, Odisha. Founded originally as a partnership in 1971 by Late Bhaskar Chandra Bhuyan and later incorporated as a private limited company in 2007, the firm has spent over five decades building a reputation as a premiere government contractor. 
           </p>
 
+
           <p className="text-gray-500 mb-8 text-justify">
-            From new builds and house renovations to complete
-            kitchen/bathroom installations, our highly skilled team can ensure
-            consistency and reliability, every time. This enables us to provide
-            our customers with a service to suit all budgets without
-            compromising on quality. Contact Bc Bhuyan today for all your
-            general building and property maintenance services to discuss your
-            next project, and to book your free quote with us today!
+            <strong>Company Overview and Historical Legacy</strong><br />
+            The company was built on the visionary leadership of its founder, Late Bhaskar Chandra Bhuyan, who transitioned from a local civil contractor to a multi-sector entrepreneur. Today, BCBCPL is managed by his sons, Mr. Pradeep Kumar Bhuyan and Mr. Pramod Kumar Bhuyan, who have continued to scale operations while maintaining the firm's core values of integrity and innovation. <br />
+            <ul>
+              <li className="py-2"><strong>Established Expertise:</strong> With over 50 years of experience, the company specializes in complex infrastructure segments, including the construction of bridges, residential complexes, and heavy industrial facilities.</li>
+              <li className="py-2"><strong>Scale of Operations:</strong> As of 2025, the company maintains a robust financial profile, with an estimated total operating income for the 2025 fiscal year.</li>
+              <li className="py-2"><strong>Headquarters:</strong> The registered office is located at Plot No. 890, Palasuni, Rasulgarh, Bhubaneswar, Odisha 751010.</li>
+            </ul>
           </p>
         </div>
       </div>

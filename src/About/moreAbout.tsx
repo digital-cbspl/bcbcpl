@@ -14,16 +14,16 @@ export default function WorkPerformance() {
                 {/* LEFT SIDE */}
                 <div data-aos="fade-right" data-aos-once="true">
                     <p className="text-[#d80c18] font-semibold tracking-wide mb-4 flex items-center gap-3">
-                        MORE ABOUT US
+                        Core Service Sectors
                         <span className="h-[2px] w-10 bg-[#101828] inline-block"></span>
                     </p>
 
                     <p className="text-gray-600 leading-relaxed mb-12 text-justify">
-                        Established over two decades ago, B.C. Bhuyan Constructions Pvt Ltd. has been at
-                        the forefront of transforming visions into reality. With a rich history of
-                        excellence, integrity, and innovation, we have become a trusted name in the
-                        construction industry, serving State Government, Central Government, and private
-                        sector clients.
+                        The company’s capabilities are broadly categorized into three major sectors:
+                        <ul>
+                            <li className="py-2"><strong>Buildings & Residential:</strong> Construction of High-Rise Apartments, Institutional and commercial complexes for government schemes.</li>
+                            <li className="py-2"><strong>Civil Infrastructure:</strong> Expertise in the "public nature" of civil works, including road construction, bridges, and Turnkey development projects in Puri and Bhubaneswar under the ABADHA scheme.</li>
+                        </ul>
                     </p>
 
                     <div className="flex items-center gap-6">

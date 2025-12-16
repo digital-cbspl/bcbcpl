@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { Facebook, Linkedin, Youtube } from "lucide-react";
-import { Banner1, Banner2, Banner3, Banner4, Banner5, Banner6, Banner7 } from "../assests/image/image";
+import { Banner1, Banner2, Banner3, Banner4, Banner5, Banner6, Banner7, Banner8 } from "../assests/image/image";
 
 export default function HeroBanner() {
   const slides = [
@@ -11,6 +11,12 @@ export default function HeroBanner() {
       title: "Re-Development of Puri Railway Station",
       subtitle: "Quality construction and reliable project delivery",
       tagline: "PROVIDES THE BEST SERVICES",
+    },
+    {
+      image: Banner8.src,
+      title: "IT Incubation Centre, Bhubanesware",
+      subtitle: "End-to-end solutions, managed with precision and care",
+      tagline: "Trust Built on Performance",
     },
     {
       image: Banner3.src,

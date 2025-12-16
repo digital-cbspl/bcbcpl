@@ -105,16 +105,16 @@ export default function Legacy() {
                     {/* RIGHT — TEXT SECTION */}
                     <div data-aos="fade-left" data-aos-once="true">
                         <p className="text-[#d80c18] font-semibold tracking-wide mb-4 flex items-center gap-3">
-                            OUR LEGACY
+                            Why Choose B.C. Bhuyan Constructions?
                             <span className="h-[2px] w-10 bg-[#101828] inline-block"></span>
                         </p>
 
                         <p className="text-gray-600 leading-relaxed mb-12 text-justify">
-                            Since our inception in [year], we have undertaken a diverse range of projects,
-                            ranging from infrastructure development to commercial complexes, residential
-                            buildings, and government facilities. Led by a team of seasoned professionals,
-                            we have continuously raised the bar in construction standards, earning the trust
-                            and confidence of our clients and stakeholders.
+                            <ul>
+                                <li className="py-2"><strong>Project Execution:</strong> The company is recognized by rating agencies like Infomerics and CRISIL for its "proven project execution capability," frequently completing projects ahead of or on schedule.</li>
+                                <li className="py-2"><strong>Modern Standards:</strong> They utilize high-quality materials and adhere to modern workplace safety and quality management standards to ensure long-term sustainability for every structure.</li>
+                                <li className="py-2"><strong>Strategic Location:</strong> Being based in the heart of Odisha allows the company to respond rapidly to the state's growing industrial and urban infrastructure needs as outlined in the <a href="https://investodisha.gov.in/investible-projects/" className="text-red-500 font-bold">Odisha Industrial Development Plan: Vision 2025.</a> </li>
+                            </ul>
                         </p>
 
                         <ul className="mt-8 space-y-4 text-[#101828]">
