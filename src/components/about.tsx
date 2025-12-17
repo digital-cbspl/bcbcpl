@@ -102,12 +102,12 @@ export default function RoofingHero() {
           <p className="text-gray-500 mb-8 text-justify">
             <strong>Company Overview and Historical Legacy</strong><br />
             The company was built on the visionary leadership of its founder, Late Bhaskar Chandra Bhuyan, who transitioned from a local civil contractor to a multi-sector entrepreneur. Today, BCBCPL is managed by his sons, Mr. Pradeep Kumar Bhuyan and Mr. Pramod Kumar Bhuyan, who have continued to scale operations while maintaining the firm's core values of integrity and innovation. <br />
-            <ul>
+            </p><ul className="text-gray-500 mb-8 text-justify">
               <li className="py-2"><strong>Established Expertise:</strong> With over 50 years of experience, the company specializes in complex infrastructure segments, including the construction of bridges, residential complexes, and heavy industrial facilities.</li>
               <li className="py-2"><strong>Scale of Operations:</strong> As of 2025, the company maintains a robust financial profile, with an estimated total operating income for the 2025 fiscal year.</li>
               <li className="py-2"><strong>Headquarters:</strong> The registered office is located at Plot No. 890, Palasuni, Rasulgarh, Bhubaneswar, Odisha 751010.</li>
             </ul>
-          </p>
+          
         </div>
       </div>
     </section>
