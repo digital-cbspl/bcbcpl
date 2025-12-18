@@ -22,7 +22,7 @@ export default function Visioner() {
             <img
               src={Founder.src}
               alt="profile"
-              className="object-cover w-full h-64 sm:h-72 lg:h-[320px]"
+              className="object-cover object-top w-full h-64 sm:h-72 lg:h-[370px]"
               draggable={false}
             />
           </div>
