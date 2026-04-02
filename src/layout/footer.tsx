@@ -65,19 +65,19 @@ export default function Footer({ visits }: { visits: number | null }) {
                         </li>
 
                         <li>
-                            <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> Our Services
+                            <Link href="/Expertise" className="flex items-center gap-2 hover:text-red-600">
+                                <ArrowRight size={16} /> Our Expertise
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="/" className="flex items-center gap-2 hover:text-red-600">
+                            <Link href="/Project/Ongoing" className="flex items-center gap-2 hover:text-red-600">
                                 <ArrowRight size={16} /> Ongoing Projects
                             </Link>
                         </li>
 
                         <li>
-                            <Link href="/" className="flex items-center gap-2 hover:text-red-600">
+                            <Link href="/Project/Completed" className="flex items-center gap-2 hover:text-red-600">
                                 <ArrowRight size={16} /> Completed Projects
                             </Link>
                         </li>
@@ -147,7 +147,7 @@ export default function Footer({ visits }: { visits: number | null }) {
 
             {/* BOTTOM BAR */}
             <div className="border-t border-gray-400 mt-15 pt-4 text-sm px-6 md:px-20 text-center flex flex-col md:flex-row justify-between items-center container mx-auto gap-4">
-                <p>© 2025 BCBCPL | All Rights Reserved || Developed by <a href="" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700">CBSPL</a>.</p>
+                <p>© 2025 BCBCPL | All Rights Reserved || Developed by <a href="https://chatbotsolutions.in/" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:text-red-700">CBSPL</a>.</p>
 
                 <div className="flex gap-8">
                     <a className="hover:text-red-600 cursor-pointer">Terms of Use</a>
