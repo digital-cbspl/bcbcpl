@@ -26,7 +26,7 @@ export default function HeroBanner() {
     },
     {
       image: Banner2.src,
-      title: "State of Art Hygienic Fish Market, Basta",
+      title: "State of Art Hygienic FishMarketBasta",
       subtitle: "Delivering durable and modern infrastructure",
       tagline: "BUILDING YOUR VISION",
     },
