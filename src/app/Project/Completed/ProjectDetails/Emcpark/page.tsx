@@ -5,7 +5,7 @@ import React from 'react'
 export default function page() {
   return (
     <>
-      <Breadcrumb title={'EMC Park'} path={'EMC Park'} />
+      <Breadcrumb title={'EMC _Park'} path={'EMC _Park'} />
       <EmcPark />
     </>
   )

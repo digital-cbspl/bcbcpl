@@ -11,16 +11,6 @@ import Footer from "../layout/footer"; // IMPORTANT
 
 export default function Home() {
 
-  const [visits, setVisits] = useState<number | null>(null);
-
-  useEffect(() => {
-    fetch("http://localhost:3000/api/visits")
-      .then((res) => res.json())
-      .then((data) => {
-        setVisits(data.visits);
-      });
-  }, []);
-
   return (
     <>
       <HeroBanner />

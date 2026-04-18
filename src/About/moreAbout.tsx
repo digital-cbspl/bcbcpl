@@ -18,13 +18,27 @@ export default function WorkPerformance() {
                         <span className="h-[2px] w-10 bg-[#101828] inline-block"></span>
                     </p>
 
-                    <p className="text-gray-600 leading-relaxed mb-12 text-justify">
+                    {/* <p className="text-gray-600 leading-relaxed mb-12 text-justify">
                         The company’s capabilities are broadly categorized into three major sectors:
                         <ul>
                             <li className="py-2"><strong>Buildings & Residential:</strong> Construction of High-Rise Apartments, Institutional and commercial complexes for government schemes.</li>
                             <li className="py-2"><strong>Civil Infrastructure:</strong> Expertise in the "public nature" of civil works, including road construction, bridges, and Turnkey development projects in Puri and Bhubaneswar under the ABADHA scheme.</li>
                         </ul>
-                    </p>
+                    </p> */}
+                    <div className="text-gray-600 leading-relaxed mb-12 text-justify">
+                        <p className="mb-4">
+                            The company’s capabilities are broadly categorized into three major sectors:
+                        </p>
+
+                        <ul className="list-disc pl-5">
+                            <li className="py-2">
+                                <strong>Buildings & Residential:</strong> Construction of High-Rise Apartments, Institutional and commercial complexes for government schemes.
+                            </li>
+                            <li className="py-2">
+                                <strong>Civil Infrastructure:</strong> Expertise in the "public nature" of civil works, including road construction, bridges, and Turnkey development projects in Puri and Bhubaneswar under the ABADHA scheme.
+                            </li>
+                        </ul>
+                    </div>
 
                     <div className="flex items-center gap-6">
 

@@ -3,8 +3,6 @@
 import {
     Facebook,
     Twitter,
-    Instagram,
-    Youtube,
     Linkedin,
     ArrowRight,
     InstagramIcon,
@@ -12,8 +10,16 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { logo } from "../assests/image/image";
+import { useEffect, useState } from "react";
 
-export default function Footer({ visits }: { visits: number | null }) {
+export default function Footer() {
+     const [visits, setVisits] = useState<number | null>(null);
+     useEffect(() => {
+        fetch("/api/visits") // ✅ FIXED (no localhost)
+            .then((res) => res.json())
+            .then((data) => setVisits(data.visits))
+            .catch(() => setVisits(0));
+    }, []);
     return (
         <footer className="bg-gray-200 text-black pt-16 pb-5">
             <div className="container mx-auto px-6 md:px-20 grid grid-cols-1 md:grid-cols-4 gap-10">
@@ -114,7 +120,7 @@ export default function Footer({ visits }: { visits: number | null }) {
 
                         <li>
                             <Link href="/" className="flex items-center gap-2 hover:text-red-600">
-                                <ArrowRight size={16} /> State of Art Hygienic Fish Market, Basta
+                                <ArrowRight size={16} /> State of Art Hygienic FishMarketBasta
                             </Link>
                         </li>
 

@@ -22,21 +22,8 @@ export const metadata: Metadata = {
   description: "Your partner in modern, efficient, and long-lasting construction projects.",
 };
 
-async function getVisits() {
-  try {
-    const res = await fetch(`http://localhost:3000/api/visits`, {
-      cache: "no-store",
-    });
-
-    const data = await res.json();
-    return data.visits;
-  } catch {
-    return 0;
-  }
-}
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const visits = await getVisits();
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
@@ -44,7 +31,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <DisablePrint />
         <DisableRightClick />
         <PageTransition>{children}</PageTransition>
-        <Footer visits={visits} />
+        <Footer />
       </body>
     </html>
   );

@@ -53,7 +53,7 @@ const OngoingProjects: FC = () => {
     const projects = [
         { image: Ong1.src, title: "Re-Development of Puri Railway Station (EPC)", link: "/" },
         { image: Ong2.src, title: "Multi Storied Quarter Complex (OPTCL), Bhubaneswar", link: "/" },
-        { image: Ong3.src, title: "State of Art Hygienic Fish Market, Basta", link: "/" },
+        { image: Ong3.src, title: "State of Art Hygienic FishMarketBasta", link: "/" },
         { image: Ong4.src, title: "CCB, Bhadrak", link: "/" },
         { image: Ong5.src, title: "G.M Office, Vizag", link: "/" },
         { image: Ong6.src, title: "Puri Beach Road Development & Multi Level Car Park (TURNKEY)", link: "/" },
